@@ -1,0 +1,85 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+	/* background-color: red; */
+}
+
+body {
+	background: linear-gradient(50deg, rgb(0, 0, 0) 0%, rgb(0, 0, 2) 50%, rgb(3, 2, 24) 100%);
+	background-size: 400% 400%;
+	animation: body 10s infinite ease-in-out;
+}
+
+.fon__feedback {
+	min-height: 620px;
+	background: linear-gradient(to right, #000000, #5f0101);
+}
+
+.feedback {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 30px;
+}
+
+.feedback__info {
+	text-align: center;
+	font-family: 'Rubik', sans-serif;
+	font-size: 30px;
+}
+
+form {
+	background: white;
+	display: flex;
+	flex-direction: column;
+	padding: 2vw 4vw;
+	width: 90%;
+	max-width: 600px;
+	border-radius: 10px;
+	box-shadow: 9px 9px 14px 0px rgba(34, 60, 80, 0.53);
+}
+
+form input, form textarea {
+	border: 2px solid rgb(159, 159, 159);
+	border-radius: 20px;
+	font-family: 'Rubik', sans-serif;
+	margin: 10px 0;
+	padding: 20px;
+	outline: none;
+	background: #f5f5f5;
+	font-size: 16px;
+}
+
+form textarea {
+	resize: none;
+	height: 150px;
+}
+
+.btn {
+	padding: 15px;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Rubik', sans-serif;
+	border: none;
+	background-size: 200%;
+	cursor: pointer;
+	width: 150px;
+	border-radius: 30px;
+	transition: .6s;
+}
+
+.btn1 {
+	margin: 20px auto 0;
+	background-image: linear-gradient(to left,#000000,#5e0505,#af0c06);
+}
+
+.btn:hover {
+	background-position: right;
+}
